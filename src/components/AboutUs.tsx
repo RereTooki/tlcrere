@@ -32,7 +32,7 @@ const AboutUs = () => {
             any place at any time without any nterruption.
           </div>
         </div>
-        <div className="flex md:bg-orangee flex-col items-center md:items-start">
+        <div className="flex md:bg-orangees flex-col items-center md:items-start">
           <div
             className="md:relative right-[18.5vw] top-[7vw] md:border-t-[1.4px] md:w-[41.5vw] z-10 border-black"
             data-aos="zoom-in"
