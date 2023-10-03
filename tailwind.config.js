@@ -9,7 +9,7 @@ export default {
       'vsm': '1px',
       sm: '375px',
           
-      md: '650px',
+      md: '775px',
       lg: '1440px',
       xl: '1540px',
     },
