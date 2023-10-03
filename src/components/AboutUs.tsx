@@ -11,21 +11,21 @@ const AboutUs = () => {
   return (
     <>
       <div className="md:flex md:flex-row md:ml-[5.4vw] md:mr-[5.6vw]">
-        <div className="md:bg-my-greys md:mt-[11vw]">
-          <div className="font-clashfont text-[55px] md:text-[46px] ml-[36.96px] md:mx-0 mr-[20.8px] text-dark-black">
+        <div className="md:bg-my-greyss md:mt-[11vw]">
+          <div className="font-clashfont text-[55px] md:text-[6vw] ml-[36.96px] md:mx-0 mr-[20.8px] text-dark-black">
             About The label Clan
           </div>
           <div className="relative">
             <div className="absolute right-[28px] bottom-[88px] border-t-[1.4px] w-[32vw] md:hidden border-black"></div>
           </div>
-          <div className="font-roboto leading-[32px] mt-[55.27px] ml-[36px] mr-[37.61px] md:mx-0 pb-[24.15px] mb-[93.99px]">
+          <div className="font-roboto leading-[32px] md:text-[24px] mt-[55.27px] md:mt-[3vw] ml-[36px] mr-[37.61px] md:mx-0 pb-[24.15px] mb-[93.99px] md:mb-0 text-dark-black">
             Great software that allows you to chat from any place at any time
             without any nterruption. Great software that allows you to chat from
             any place at any time without any nterruption.
           </div>
         </div>
-        <div className="flex md:bg-orangee flex-col items-center md:items-start">
-          <div className="md:relative right-[18vw] top-[7vw] md:border-t-[1.4px] md:w-[39vw] z-10 border-black"></div>
+        <div className="flex md:bg-orangees flex-col items-center md:items-start">
+          <div className="md:relative right-[18.5vw] top-[7vw] md:border-t-[1.4px] md:w-[41.5vw] z-10 border-black"></div>
           <div className="z-20">
             <div className="ml-[17.2vw] h-[280px] md:h-[21.8vw] w-[320px] md:w-[34vw]">
               <img
@@ -35,30 +35,27 @@ const AboutUs = () => {
               />
             </div>
           </div>
-          <div className="relative mr-[18vw] bottom-[44px] md:top-[4.4vw] bg-slate-700 h-[315px] md:h-[21.8vw] w-[328px] md:w-[24vw] z-30">
-            <img
-              className="grayscale h-[315px] md:h-[21.8vw] w-[328px] md:w-[24vw]"
-              src={rect2}
-              alt="Arrow icon"
-            />
-          </div>
-          <div className="relative bottom-[158px] md:bottom-0 ml-[40vw]">
-            <picture className="">
-              <source
-                className=""
-                media="(min-width: 775px)"
-                srcSet={circlestuff}
-              />
+
+          <div className="md:flex md:flex-row">
+            <div className="relative mr-[18vw] ml-[9.9vw] md:mr-0 md:ml-[100px] bottom-[44px] md:top-[4.4vw] bg-slate-700 h-[315px] md:h-[21.8vw] w-[328px] md:w-[24vw] z-30">
               <img
-                src={circlestuffmobile}
-                alt="We make your advert better"
-                className=""
+                className="grayscale h-[315px] md:h-[21.8vw] w-[328px] md:w-[24vw]"
+                src={rect2}
+                alt="Arrow icon"
               />
-            </picture>
+            </div>
+            <div className="relative bottom-[158px] md:bottom-0 msd:bottsom-[24vw] ml-[40vw] md:ml-0">
+              <img
+                src={circlestuff}
+                alt="We make your advert better"
+                className="md:w-[25.4vw]"
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div className="mt-[110.5s1px] relative bottom-[48px] flex flex-row justify-evenly mb-[28px]">
+
+      <div className="md:mt-[352px] bg-dark-blue relative bottom-[48px] flex flex-row justify-evenly md:justify-normal mb-[28px]">
         <div className="bg-slate-300 h-[315px] w-[238px]">
           <img
             className="grayscale h-[315px] w-[238px]"
