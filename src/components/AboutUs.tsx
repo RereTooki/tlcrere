@@ -9,38 +9,42 @@ import rect4 from "../assets/images/Rectangle 9575.png";
 const AboutUs = () => {
   return (
     <>
-      <div className="font-clashfont text-[55px] ml-[36.96px] mr-[20.8px] text-dark-black">
-        About The label Clan
-      </div>
-      <div className="relative">
-        <div className="absolute right-[28px] bottom-[88px] border-t-[1.4px] w-[32vw] border-black"></div>
-      </div>
-      <div className="font-roboto leading-[32px] mt-[55.27px] ml-[36px] mr-[37.61px] pb-[24.15px] mb-[93.99px]">
-        Great software that allows you to chat from any place at any time
-        without any nterruption. Great software that allows you to chat from any
-        place at any time without any nterruption.
-      </div>
-      <div className="flex flex-col items-center">
-        <div className="ml-[21vw] h-[280px] w-[320px]">
-          <img
-            className="grayscale h-[280px] w-[320px]"
-            src={rect}
-            alt="Arrow icon"
-          />
+      <div className="md:flex md:flex-row">
+        <div>
+          <div className="font-clashfont text-[55px] ml-[36.96px] mr-[20.8px] text-dark-black">
+            About The label Clan
+          </div>
+          <div className="relative">
+            <div className="absolute right-[28px] bottom-[88px] border-t-[1.4px] w-[32vw] border-black"></div>
+          </div>
+          <div className="font-roboto leading-[32px] mt-[55.27px] ml-[36px] mr-[37.61px] pb-[24.15px] mb-[93.99px]">
+            Great software that allows you to chat from any place at any time
+            without any nterruption. Great software that allows you to chat from
+            any place at any time without any nterruption.
+          </div>
         </div>
-        <div className="relative mr-[18vw] bottom-[44px] bg-slate-700 h-[315px] w-[328px]">
-          <img
-            className="grayscale h-[315px] w-[328px]"
-            src={rect2}
-            alt="Arrow icon"
-          />
-        </div>
-        <div className="relative bottom-[158px] ml-[40vw]">
-          <img
-            className=""
-            src={circlestuff}
-            alt="We make your advert better"
-          />
+        <div className="flex flex-col items-center">
+          <div className="ml-[21vw] h-[280px] w-[320px]">
+            <img
+              className="grayscale h-[280px] w-[320px]"
+              src={rect}
+              alt="Arrow icon"
+            />
+          </div>
+          <div className="relative mr-[18vw] bottom-[44px] bg-slate-700 h-[315px] w-[328px]">
+            <img
+              className="grayscale h-[315px] w-[328px]"
+              src={rect2}
+              alt="Arrow icon"
+            />
+          </div>
+          <div className="relative bottom-[158px] ml-[40vw]">
+            <img
+              className=""
+              src={circlestuff}
+              alt="We make your advert better"
+            />
+          </div>
         </div>
       </div>
       <div className="mt-[110.5s1px] relative bottom-[48px] flex flex-row justify-evenly mb-[28px]">

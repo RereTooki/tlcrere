@@ -5,6 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
+    screens: {
+      'vsm': '1px',
+      sm: '375px',
+          
+      md: '650px',
+      lg: '1440px',
+      xl: '1540px',
+    },
     extend: {
       fontFamily: {
         roboto: ['Roboto'],
