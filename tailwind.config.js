@@ -14,6 +14,7 @@ export default {
       colors: {
         'orangee': 'hsl(25, 97%, 53%)',
         'dark-black': 'hsla(255, 7%, 11%, 87%)',
+        'my-greys': 'rgba(217, 217, 217, 69%)',
         'whitee': 'hsl(0, 0%, 100%)',
         'light-grey': 'hsl(217, 12%, 63%)',
         'medium-grey': 'hsl(216, 12%, 54%)',

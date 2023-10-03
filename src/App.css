@@ -35,7 +35,109 @@
 	  margin-right: 10px;
 	  margin-bottom: 20px;
 	  margin-top: 20px;
-	  cursor: pointer;
-	  
+	  cursor: pointer;	  
 	}
+
+  .c1 {
+transform: rotate(6deg);
+color: violet;
+}
+.c2 {
+transform: rotate(12deg);
+color: indigo;
+}
+.c3 {
+transform: rotate(18deg);
+color: blue;
+}
+.c4 {
+transform: rotate(24deg);
+color: green;
+}
+.c5 {
+transform: rotate(30deg);
+color: yellow;
+}
+.c6 {
+transform: rotate(36deg);
+color: orange;
+}
+.c7 {
+transform: rotate(43deg);
+color: red;
+}
+.c8 {
+transform: rotate(48deg);
+color: purple;
+}
+.c9 {
+transform: rotate(54deg);
+color: goldenrod;
+}
+.c10 {
+transform: rotate(60deg);
+color: teal;
+}
+
+h1 span {
+  font-size: 26px ;
+  transform-origin: bottom;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 300px;
+  width: 50px;
+  left: 50;
+  top: 50;
+  position: absolute;
+  }
+  .G1 {
+    transform: translate(20px, 85px) rotate(-30deg);
+}
+
+.e1 {
+    transform: translate(13px, 60px) rotate(-25deg);
+}
+
+.e2 {
+    transform: translate(6px, 40px) rotate(-20deg);
+}
+
+.k1 {
+    transform: translate(3px, 23px) rotate(-15deg);
+}
+
+.s1 {
+    transform: translate(2px, 14px) rotate(-10deg);
+}
+
+.f {
+    transform: translate(1px, 8px) rotate(-5deg);
+}
+
+.o {
+    transform: translate(0px, 5px) rotate(0deg);
+}
+
+.r {
+    transform: translate(-1px, 8px) rotate(5deg);
+}
+
+.G2 {
+    transform: translate(-2px, 14px) rotate(10deg);
+}
+
+.e3 {
+    transform: translate(-3px, 25px) rotate(15deg);
+}
+
+.e4 {
+    transform: translate(-6px, 40px) rotate(20deg);
+}
+
+.k2 {
+    transform: translate(-14px, 60px) rotate(25deg);
+}
+
+.s2 {
+    transform: translate(-20px, 80px) rotate(30deg);
+}
 }
