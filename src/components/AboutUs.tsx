@@ -18,7 +18,7 @@ const AboutUs = () => {
           <div className="relative">
             <div className="absolute right-[28px] bottom-[88px] border-t-[1.4px] w-[32vw] md:hidden border-black"></div>
           </div>
-          <div className="font-roboto leading-[32px] md:text-[24px] mt-[55.27px] md:mt-[3vw] ml-[36px] mr-[37.61px] md:mx-0 pb-[24.15px] mb-[93.99px] md:mb-0 text-dark-black">
+          <div className="font-roboto leading-[32px] md:text-[1.6vw] mt-[55.27px] md:mt-[3vw] ml-[36px] mr-[37.61px] md:mx-0 pb-[24.15px] md:pb-0 mb-[93.99px] md:mb-0 text-dark-black">
             Great software that allows you to chat from any place at any time
             without any nterruption. Great software that allows you to chat from
             any place at any time without any nterruption.
@@ -54,37 +54,42 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-
-      <div className="md:mt-[352px] bg-dark-blue relative bottom-[48px] flex flex-row justify-evenly md:justify-normal mb-[28px]">
-        <div className="bg-slate-300 h-[315px] w-[238px]">
-          <img
-            className="grayscale h-[315px] w-[238px]"
-            src={rect3}
-            alt="Arrow icon"
-          />
+      <div className="md:flex md:flex-row md:ml-[5.6vw] md:mt-[304px] md:mb-[11.1vw]">
+        <div className="bg-orangees">
+          <div className=" bg-dark-blue relative bottom-[48px] md:bottom-0 flex flex-row justify-evenly md:justify-normal mb-[28px] md:mb-[9.6vw]">
+            <div className="bg-slate-300 h-[315px] z-10 md:h-[21.8vw] w-[238px] md:w-[34vw]">
+              <img
+                className="grayscale h-[315px] z-10 md:h-[21.8vw] w-[238px] md:w-[34vw]"
+                src={rect3}
+                alt="Third pic"
+              />
+            </div>
+            <div className="z-10 md:absolute relative top-[157.5px] md:left-[34vw] md:top-[2.9vw] border-t-[1.4px] w-[34vw] border-black"></div>
+          </div>
+          <div className="ml-[33px] mb-[127px] md:mb-[4.4vw]">
+            <div className="font-clashfont text-[55px] md:text-[6vw] text-dark-black">
+              OUR STORY
+            </div>
+            <div className="relative border-t-[1.4px] w-[186px] w-[14.9vw] border-black"></div>
+          </div>
         </div>
-        <div className="relative top-[157.5px] border-t-[1.4px] w-[26vw] border-black"></div>
-      </div>
-      <div className="ml-[33px] mb-[127px]">
-        <div className="font-clashfont text-[55px] text-dark-black">
-          OUR STORY
+        <div className="bg-light-greys md:flex md:flex-col-reverse">
+          <div className="flex flex-col items-center md:items-end relative mb-[169px] md:mb-0">
+            <div className="ml-[14vw] md:ml-0 bg-my-greys h-[260px] md:h-[23.6vw] w-[374px] md:w-[49.5vw]"></div>
+            <div className="absolute mr-[9.2vw] md:mr-[5.5vw] top-[50px] md:top-[2.6vw] bg-slate-700 h-[303px] md:h-[26.5vw] w-[395px] md:w-[52.3vw]">
+              <img
+                className="grayscale h-[303px] md:h-[26.5vw] w-[395px] md:w-[52.3vw]"
+                src={rect4}
+                alt="Arrow icon"
+              />
+            </div>
+          </div>
+          <div className="md:text-[1.6vw] text-dark-black font-roboto leading-[32px] ml-[36px] md:ml-[8.8vw] mr-[37.61px] md:mr-[5.6vw] md:mt-[9vw] pb-[24.15px] md:pb-0 mb-[109.85px] md:mb-[11vw]">
+            Great software that allows you to chat from any place at any time
+            without any nterruption. Great software that allows you to chat from
+            any place at any time without any nterruption.
+          </div>
         </div>
-        <div className="relative top-[s157.5px] border-t-[1.4px] w-[186px] border-black"></div>
-      </div>
-      <div className="flex flex-col items-center relative mb-[169px]">
-        <div className="ml-[14vw] bg-my-greys h-[260px] w-[374px]"></div>
-        <div className="absolute mr-[9.2vw] top-[50px] bg-slate-700 h-[303px] w-[395px]">
-          <img
-            className="grayscale h-[303px] w-[395px]"
-            src={rect4}
-            alt="Arrow icon"
-          />
-        </div>
-      </div>
-      <div className="font-roboto leading-[32px] ml-[36px] mr-[37.61px] mt-[76psx] pb-[24.15px] mb-[109.85px]">
-        Great software that allows you to chat from any place at any time
-        without any nterruption. Great software that allows you to chat from any
-        place at any time without any nterruption.
       </div>
     </>
   );
