@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import circlestuff from "../assets/images/Group 47.svg";
+import circlestuffmobile from "../assets/images/Group 47 mobile.svg";
 import rect from "../assets/images/Rectangle 9572.png";
 import rect2 from "../assets/images/Rectangle 9573.png";
 import rect3 from "../assets/images/Rectangle 9574.png";
@@ -10,7 +11,7 @@ const AboutUs = () => {
   return (
     <>
       <div className="md:flex md:flex-row md:ml-[5.4vw] md:mr-[5.6vw]">
-        <div className="md:bg-my-greys">
+        <div className="md:bg-my-greys md:mt-[11vw]">
           <div className="font-clashfont text-[55px] md:text-[46px] ml-[36.96px] md:mx-0 mr-[20.8px] text-dark-black">
             About The label Clan
           </div>
@@ -23,36 +24,37 @@ const AboutUs = () => {
             any place at any time without any nterruption.
           </div>
         </div>
-        <div className="flex md:bg-orangee flex-col items-center">
-          <div className="md:relative">
-            <div className="md:absolute right-[5vw] top-[6.5vw] md:border-t-[1.4px] md:w-[39vw] z-10 border-black"></div>
-          </div>
+        <div className="flex md:bg-orangee flex-col items-center md:items-start">
+          <div className="md:relative right-[18vw] top-[7vw] md:border-t-[1.4px] md:w-[39vw] z-10 border-black"></div>
           <div className="z-20">
-            <div className="ml-[21vw] h-[280px] md:h-[21.8vw] w-[320px] md:w-[34vw]">
+            <div className="ml-[17.2vw] h-[280px] md:h-[21.8vw] w-[320px] md:w-[34vw]">
               <img
                 className="grayscale h-[280px] md:h-[21.8vw] w-[320px] md:w-[34vw]"
                 src={rect}
                 alt="Arrow icon"
               />
             </div>
-
-            {/* <div className="relative">
-              <div className="absolute bottom-[16.5vw] border-t-[1.4px] w-[21vw] border-black"></div>
-            </div> */}
           </div>
-          <div className="relative mr-[18vw] bottom-[44px] bg-slate-700 h-[315px] md:h-[21.8vw] w-[328px] md:w-[24vw] z-30">
+          <div className="relative mr-[18vw] bottom-[44px] md:top-[4.4vw] bg-slate-700 h-[315px] md:h-[21.8vw] w-[328px] md:w-[24vw] z-30">
             <img
               className="grayscale h-[315px] md:h-[21.8vw] w-[328px] md:w-[24vw]"
               src={rect2}
               alt="Arrow icon"
             />
           </div>
-          <div className="relative bottom-[158px] ml-[40vw]">
-            <img
-              className=""
-              src={circlestuff}
-              alt="We make your advert better"
-            />
+          <div className="relative bottom-[158px] md:bottom-0 ml-[40vw]">
+            <picture className="">
+              <source
+                className=""
+                media="(min-width: 775px)"
+                srcSet={circlestuff}
+              />
+              <img
+                src={circlestuffmobile}
+                alt="We make your advert better"
+                className=""
+              />
+            </picture>
           </div>
         </div>
       </div>
