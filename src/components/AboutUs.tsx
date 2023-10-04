@@ -55,36 +55,36 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="md:flex md:flex-row md:ml-[5.6vw] md:mt-[304px] md:mb-[11.1vw]">
-        <div className="bg-orangee">
+        <div className="bg-orangees">
           <div className=" bg-dark-blues relative bottom-[10.8vw] md:bottom-0 flex flex-row justify-evenly md:justify-normal mb-[6.3vw] md:mb-[9.6vw]">
-            <div className="bg-slate-300 ml-[6.2vw] h-[71.4vw] z-10 md:h-[21.8vw] w-[53.9vw] md:w-[34vw]">
+            <div className="bg-slate-300 ml-[6.2vw] md:ml-0 h-[71.4vw] z-10 md:h-[24.8vw] w-[53.9vw] md:w-[34vw]">
               <img
-                className="grayscale h-[71.4vw] z-10 md:h-[21.8vw] w-[53.9vw] md:w-[34vw]"
+                className="grayscale h-[71.4vw] z-10 md:h-[24.8vw] w-[53.9vw] md:w-[34vw]"
                 src={rect3}
                 alt="Third pic"
               />
             </div>
-            <div className="z-10 md:absolute relative top-[35.7vw] md:left-[34vw] md:top-[2.9vw] border-t-[1.4px] w-[26.3vw] border-black"></div>
+            <div className="z-10 md:absolute relative top-[35.7vw] md:left-[34vw] md:top-[2.9vw] border-t-[1.4px] md:w-[32vw] w-[26.3vw] border-black"></div>
           </div>
-          <div className="ml-[33px] mb-[127px] md:mb-[4.4vw]">
-            <div className="font-clashfont text-[55px] md:text-[6vw] text-dark-black">
+          <div className="ml-[7.4vw] md:ml-0 mb-[28.7vw] md:mb-[4.4vw]">
+            <div className="font-clashfont text-[12.4vw] md:text-[6vw] text-dark-black">
               OUR STORY
             </div>
-            <div className="relative border-t-[1.4px] w-[186px] w-[14.9vw] border-black"></div>
+            <div className="relative border-t-[1.4px] w-[42vw] md:w-[14.9vw] border-black"></div>
           </div>
         </div>
-        <div className="bg-light-greys md:flex md:flex-col-reverse">
-          <div className="flex flex-col items-center md:items-end relative mb-[169px] md:mb-0">
-            <div className="ml-[14vw] md:ml-0 bg-my-greys h-[260px] md:h-[23.6vw] w-[374px] md:w-[49.5vw]"></div>
-            <div className="absolute mr-[9.2vw] md:mr-[5.5vw] top-[50px] md:top-[2.6vw] bg-slate-700 h-[303px] md:h-[26.5vw] w-[395px] md:w-[52.3vw]">
+        <div className="bg-light-grey md:flex md:flex-col-reverse">
+          <div className="flex flex-col items-center md:items-end relative md:mb-0">
+            <div className="ml-[14vw] md:ml-0 bg-my-greys h-[58.9vw] md:h-[23.6vw] w-[84.8vw] md:w-[49.5vw]"></div>
+            <div className="absolute mr-[9.2vw] md:mr-[5.5vw] top-[11.3vw] md:top-[2.6vw] bg-slate-700 h-[68.7vw] md:h-[26.5vw] w-[89.5vw] md:w-[52.3vw]">
               <img
-                className="grayscale h-[303px] md:h-[26.5vw] w-[395px] md:w-[52.3vw]"
+                className="grayscale h-[68.7vw] md:h-[26.5vw] w-[89.5vw] md:w-[52.3vw]"
                 src={rect4}
-                alt="Arrow icon"
+                alt="My 4th rectangle"
               />
             </div>
           </div>
-          <div className="md:text-[1.6vw] text-dark-black font-roboto leading-[32px] ml-[36px] md:ml-[8.8vw] mr-[37.61px] md:mr-[5.6vw] md:mt-[9vw] pb-[24.15px] md:pb-0 mb-[109.85px] md:mb-[11vw]">
+          <div className="md:text-[1.6vw] text-[4.5vw] text-dark-black font-roboto leading-[7.2vw] md:leading-[25px] ml-[6.1vw] md:ml-[8.8vw] mr-[6.1vw] md:mr-[5.6vw] md:mt-[9vw] pb-[24.15px] md:pb-0 mb-[24.9vw] md:mb-[11vw] mt-[38.2vw] ">
             Great software that allows you to chat from any place at any time
             without any nterruption. Great software that allows you to chat from
             any place at any time without any nterruption.
