@@ -10,7 +10,7 @@ import rect4 from "../assets/images/Rectangle 9575.png";
 const AboutUs = () => {
   return (
     <>
-      <div className="md:flex md:flex-row md:ml-[5.4vw] md:mr-[5.6vw] overflow-hidden">
+      <div className="md:flex md:flex-row md:ml-[5.4vw] md:mr-[5.6vw]">
         <div className="md:bg-my-greyss md:mt-[11vw]">
           <div
             className="font-clashfont text-[55px] md:text-[6vw] ml-[36.96px] md:mx-0 mr-[20.8px] text-dark-black"
