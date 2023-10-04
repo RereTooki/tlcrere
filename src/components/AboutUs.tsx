@@ -12,63 +12,39 @@ const AboutUs = () => {
     <>
       <div className="md:flex md:flex-row md:ml-[5.4vw] md:mr-[5.6vw]">
         <div className="md:bg-my-greyss md:mt-[11vw]">
-          <div
-            className="font-clashfont text-[55px] md:text-[6vw] ml-[36.96px] md:mx-0 mr-[20.8px] text-dark-black"
-            data-aos="zoom-in-right"
-            data-aos-duration="700"
-          >
+          <div className="font-clashfont text-[12.4vw] md:text-[6vw] ml-[8.8vw] md:mx-0 mr-[20.8px] text-dark-black">
             About The label Clan
           </div>
           <div className="relative">
-            <div className="absolute right-[28px] bottom-[88px] border-t-[1.4px] w-[32vw] md:hidden border-black"></div>
+            <div className="absolute right-[28px] bottom-[19.6vw] border-t-[1.4px] w-[32vw] md:hidden border-black"></div>
           </div>
-          <div
-            className="font-roboto leading-[32px] md:text-[1.6vw] mt-[55.27px] md:mt-[3vw] ml-[36px] mr-[37.61px] md:mx-0 pb-[24.15px] md:pb-0 mb-[93.99px] md:mb-0 text-dark-black"
-            data-aos="zoom-in-right"
-            data-aos-duration="700"
-          >
+          <div className="font-roboto leading-[7.2vw] md:leading-[25px] text-[4.5vw] md:text-[1.6vw] mt-[55.27px] md:mt-[3vw] ml-[8.6vw] mr-[8vw] md:mx-0 md:pb-0 mb-[27.5vw] md:mb-0 text-dark-black">
             Great software that allows you to chat from any place at any time
             without any nterruption. Great software that allows you to chat from
             any place at any time without any nterruption.
           </div>
         </div>
-        <div className="flex md:bg-orangees flex-col items-center md:items-start">
-          <div
-            className="md:relative right-[18.5vw] top-[7vw] md:border-t-[1.4px] md:w-[41.5vw] z-10 border-black"
-            data-aos="zoom-in"
-            data-aos-duration="700"
-          ></div>
+        <div className="flex bg-orangees flex-col items-center md:items-start">
+          <div className="md:relative right-[18.5vw] top-[7vw] md:border-t-[1.4px] md:w-[41.5vw] z-10 border-black"></div>
           <div className="z-20">
-            <div
-              className="ml-[17.2vw] h-[280px] md:h-[21.8vw] w-[320px] md:w-[34vw]"
-              data-aos="fade-left"
-              data-aos-duration="700"
-            >
+            <div className="ml-[17.2vw] h-[63.4vw] md:h-[21.8vw] w-[72.5vw] md:w-[34vw]">
               <img
-                className="grayscale h-[280px] md:h-[21.8vw] w-[320px] md:w-[34vw]"
+                className="grayscale h-[63.4vw] md:h-[21.8vw] w-[72.5vw] md:w-[34vw]"
                 src={rect}
-                alt="Arrow icon"
+                alt="First rectangle"
               />
             </div>
           </div>
 
           <div className="md:flex md:flex-row">
-            <div
-              className="relative mr-[18vw] ml-[9.9vw] md:mr-0 md:ml-[100px] bottom-[44px] md:top-[4.4vw] bg-slate-700 h-[315px] md:h-[21.8vw] w-[328px] md:w-[24vw] z-30"
-              data-aos="fade-right"
-              data-aos-duration="700"
-            >
+            <div className="relative mr-[18vw] ml-[9.9vw] md:mr-0 md:ml-[100px] bottom-[9.9vw] md:top-[4.4vw] bg-slate-700 h-[71.4vw] md:h-[21.8vw] w-[74.3vw] md:w-[24vw] z-30">
               <img
-                className="grayscale h-[315px] md:h-[21.8vw] w-[328px] md:w-[24vw]"
+                className="grayscale h-[71.4vw] md:h-[21.8vw] w-[74.3vw] md:w-[24vw]"
                 src={rect2}
-                alt="Arrow icon"
+                alt="Second rectangle"
               />
             </div>
-            <div
-              className="relative bottom-[158px] md:bottom-0 msd:bottsom-[24vw] ml-[40vw] md:ml-0"
-              data-aos="fade-left"
-              data-aos-duration="700"
-            >
+            <div className="relative bottom-[35.8vw] md:bottom-0 msd:bottsom-[24vw] ml-[40vw] mod:ml-[50vw] md:ml-0">
               <img
                 src={circlestuff}
                 alt="We make your advert better"
@@ -79,30 +55,18 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="md:flex md:flex-row md:ml-[5.6vw] md:mt-[304px] md:mb-[11.1vw]">
-        <div className="bg-orangees">
-          <div className=" bg-dark-blues relative bottom-[48px] md:bottom-0 flex flex-row justify-evenly md:justify-normal mb-[28px] md:mb-[9.6vw]">
-            <div
-              className="bg-slate-300 h-[315px] z-10 md:h-[21.8vw] w-[238px] md:w-[34vw]"
-              data-aos="fade-right"
-              data-aos-duration="700"
-            >
+        <div className="bg-orangee">
+          <div className=" bg-dark-blues relative bottom-[10.8vw] md:bottom-0 flex flex-row justify-evenly md:justify-normal mb-[6.3vw] md:mb-[9.6vw]">
+            <div className="bg-slate-300 ml-[6.2vw] h-[71.4vw] z-10 md:h-[21.8vw] w-[53.9vw] md:w-[34vw]">
               <img
-                className="grayscale h-[315px] z-10 md:h-[21.8vw] w-[238px] md:w-[34vw]"
+                className="grayscale h-[71.4vw] z-10 md:h-[21.8vw] w-[53.9vw] md:w-[34vw]"
                 src={rect3}
                 alt="Third pic"
               />
             </div>
-            <div
-              className="z-10 md:absolute relative top-[157.5px] md:left-[34vw] md:top-[2.9vw] border-t-[1.4px] w-[34vw] border-black"
-              data-aos="zoom-in"
-              data-aos-duration="700"
-            ></div>
+            <div className="z-10 md:absolute relative top-[35.7vw] md:left-[34vw] md:top-[2.9vw] border-t-[1.4px] w-[26.3vw] border-black"></div>
           </div>
-          <div
-            className="ml-[33px] mb-[127px] md:mb-[4.4vw]"
-            data-aos="zoom-in-right"
-            data-aos-duration="700"
-          >
+          <div className="ml-[33px] mb-[127px] md:mb-[4.4vw]">
             <div className="font-clashfont text-[55px] md:text-[6vw] text-dark-black">
               OUR STORY
             </div>
@@ -111,16 +75,8 @@ const AboutUs = () => {
         </div>
         <div className="bg-light-greys md:flex md:flex-col-reverse">
           <div className="flex flex-col items-center md:items-end relative mb-[169px] md:mb-0">
-            <div
-              className="ml-[14vw] md:ml-0 bg-my-greys h-[260px] md:h-[23.6vw] w-[374px] md:w-[49.5vw]"
-              data-aos="flip-down"
-              data-aos-duration="700"
-            ></div>
-            <div
-              className="absolute mr-[9.2vw] md:mr-[5.5vw] top-[50px] md:top-[2.6vw] bg-slate-700 h-[303px] md:h-[26.5vw] w-[395px] md:w-[52.3vw]"
-              data-aos="flip-up"
-              data-aos-duration="700"
-            >
+            <div className="ml-[14vw] md:ml-0 bg-my-greys h-[260px] md:h-[23.6vw] w-[374px] md:w-[49.5vw]"></div>
+            <div className="absolute mr-[9.2vw] md:mr-[5.5vw] top-[50px] md:top-[2.6vw] bg-slate-700 h-[303px] md:h-[26.5vw] w-[395px] md:w-[52.3vw]">
               <img
                 className="grayscale h-[303px] md:h-[26.5vw] w-[395px] md:w-[52.3vw]"
                 src={rect4}
@@ -128,11 +84,7 @@ const AboutUs = () => {
               />
             </div>
           </div>
-          <div
-            className="md:text-[1.6vw] text-dark-black font-roboto leading-[32px] ml-[36px] md:ml-[8.8vw] mr-[37.61px] md:mr-[5.6vw] md:mt-[9vw] pb-[24.15px] md:pb-0 mb-[109.85px] md:mb-[11vw]"
-            data-aos="fade-left"
-            data-aos-duration="700"
-          >
+          <div className="md:text-[1.6vw] text-dark-black font-roboto leading-[32px] ml-[36px] md:ml-[8.8vw] mr-[37.61px] md:mr-[5.6vw] md:mt-[9vw] pb-[24.15px] md:pb-0 mb-[109.85px] md:mb-[11vw]">
             Great software that allows you to chat from any place at any time
             without any nterruption. Great software that allows you to chat from
             any place at any time without any nterruption.
