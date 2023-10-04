@@ -16,13 +16,15 @@ export default {
     extend: {
       fontFamily: {
         roboto: ['Roboto'],
-        clashfont: ['clashdisplay']
+        clashfont: ['clashdisplay'],
+        proxima: ['"Proxima Nova"']
       },
 
       colors: {
         'orangee': 'hsl(25, 97%, 53%)',
         'dark-black': 'hsla(255, 7%, 11%, 87%)',
         'my-greys': 'rgba(217, 217, 217, 69%)',
+        'my-greys-2': 'rgba(19, 19, 19, 100%)',
         'whitee': 'hsl(0, 0%, 100%)',
         'light-grey': 'hsl(217, 12%, 63%)',
         'medium-grey': 'hsl(216, 12%, 54%)',

@@ -2,6 +2,8 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 import AboutUs from "./components/AboutUs";
+import Demarcation from "./components/Demarcation";
+import HowToJoin from "./components/HowToJoin";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,6 +12,12 @@ function App() {
     <>
       <div className="overflow-hidden">
         <AboutUs />
+      </div>
+      <div>
+        <Demarcation />
+      </div>
+      <div>
+        <HowToJoin />
       </div>
     </>
   );
