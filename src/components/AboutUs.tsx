@@ -54,7 +54,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="md:flex md:flex-row md:ml-[5.6vw] md:mt-[304px] md:mb-[11.1vw]">
+      <div className="md:flex md:flex-row md:ml-[5.6vw] md:mt-[24.4vw] md:mb-[11.1vw]">
         <div className="bg-orangees">
           <div className=" bg-dark-blues relative bottom-[10.8vw] md:bottom-0 flex flex-row justify-evenly md:justify-normal mb-[6.3vw] md:mb-[9.6vw]">
             <div className="bg-slate-300 ml-[6.2vw] md:ml-0 h-[71.4vw] z-10 md:h-[24.8vw] w-[53.9vw] md:w-[34vw]">
@@ -73,7 +73,7 @@ const AboutUs = () => {
             <div className="relative border-t-[1.4px] w-[42vw] md:w-[14.9vw] border-black"></div>
           </div>
         </div>
-        <div className="bg-light-grey md:flex md:flex-col-reverse">
+        <div className="bg-light-greyS md:flex md:flex-col-reverse">
           <div className="flex flex-col items-center md:items-end relative md:mb-0">
             <div className="ml-[14vw] md:ml-0 bg-my-greys h-[58.9vw] md:h-[23.6vw] w-[84.8vw] md:w-[49.5vw]"></div>
             <div className="absolute mr-[9.2vw] md:mr-[5.5vw] top-[11.3vw] md:top-[2.6vw] bg-slate-700 h-[68.7vw] md:h-[26.5vw] w-[89.5vw] md:w-[52.3vw]">
