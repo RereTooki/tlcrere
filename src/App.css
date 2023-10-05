@@ -3,13 +3,24 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'clashdisplay';
+  font-family: 'clashdisplaysemi';
   src: url('fonts/clash-display/ClashDisplay-Semibold.woff2') format('woff2'),
-       url('fonts/clash-display/ClashDisplay-Semibold.woff') format('woff');       
+       url('fonts/clash-display/ClashDisplay-Semibold.woff') format('woff'),
+       url('fonts/clash-display/ClashDisplay-Medium.woff') format('woff'),
+       url('fonts/clash-display/ClashDisplay-Medium.woff2') format('woff2');       
        font-weight: 600;
        font-display: swap;
        font-style: normal;
 }
+
+@font-face {
+    font-family: 'clashdisplaymedium';
+    src: url('fonts/clash-display/ClashDisplay-Medium.woff') format('woff'),
+         url('fonts/clash-display/ClashDisplay-Medium.woff2') format('woff2');       
+         font-weight: 300;
+         font-display: swap;
+         font-style: normal;
+  }
 
 *, *::before, *::after {
     box-sizing: border-box;

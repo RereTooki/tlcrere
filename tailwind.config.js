@@ -16,8 +16,9 @@ export default {
     extend: {
       fontFamily: {
         roboto: ['Roboto'],
-        clashfont: ['clashdisplay'],
-        proxima: ['"Proxima Nova"']
+        clashfont: ['clashdisplaysemi'],
+        clashfont2: ['clashdisplaymedium'],
+        proxima: ['Proxima Nova']
       },
 
       colors: {

@@ -18,7 +18,7 @@ const AboutUs = () => {
           <div className="relative">
             <div className="absolute right-[28px] bottom-[19.6vw] border-t-[1.4px] w-[32vw] md:hidden border-black"></div>
           </div>
-          <div className="font-roboto leading-[7.2vw] md:leading-[25px] text-[4.5vw] md:text-[1.6vw] mt-[55.27px] md:mt-[3vw] ml-[8.6vw] mr-[8vw] md:mx-0 md:pb-0 mb-[27.5vw] md:mb-0 text-dark-black">
+          <div className="font-roboto leading-[7.2vw] md:leading-[4.1vw] text-[4.5vw] md:text-[1.6vw] mt-[55.27px] md:mt-[3vw] ml-[8.6vw] mr-[8vw] md:mx-0 md:pb-0 mb-[27.5vw] md:mb-0 text-dark-black">
             Great software that allows you to chat from any place at any time
             without any nterruption. Great software that allows you to chat from
             any place at any time without any nterruption.
@@ -84,7 +84,7 @@ const AboutUs = () => {
               />
             </div>
           </div>
-          <div className="md:text-[1.6vw] text-[4.5vw] text-dark-black font-roboto leading-[7.2vw] md:leading-[25px] ml-[6.1vw] md:ml-[8.8vw] mr-[6.1vw] md:mr-[5.6vw] md:mt-[9vw] pb-[24.15px] md:pb-0 mb-[24.9vw] md:mb-[11vw] mt-[38.2vw] ">
+          <div className="md:text-[1.6vw] text-[4.5vw] text-dark-black font-roboto leading-[7.2vw] md:leading-[4.1vw] ml-[6.1vw] md:ml-[8.8vw] mr-[6.1vw] md:mr-[5.6vw] md:mt-[9vw] pb-[24.15px] md:pb-0 mb-[24.9vw] md:mb-[11vw] mt-[38.2vw] ">
             Great software that allows you to chat from any place at any time
             without any nterruption. Great software that allows you to chat from
             any place at any time without any nterruption.

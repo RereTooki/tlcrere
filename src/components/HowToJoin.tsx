@@ -7,10 +7,10 @@ import logo3 from "../assets/images/Icon3.svg";
 const HowToJoin = () => {
   return (
     <>
-      <div className="font-clashfont mx-[6.8vw] leading-[14.5vw] text-[9.5vw] text-center text-my-greys-2 font-medium">
+      <div className="font-clashfont2 mx-[6.8vw] leading-[14.5vw] md:leading-[4.4vw] text-[9.5vw] md:text-[4.4vw] text-center text-my-greys-2">
         How can you join?
       </div>
-      <div className="font-proxima mx-[6.8vw] text-center text-[4vw] leading-[5.8vw] mt-[4.5vw] text-my-greys-2 font-normal">
+      <div className="font-proxima mx-[6.8vw] md:mx-[17.9vw] text-center text-[4vw] md:text-[1.2vw] leading-[5.8vw] md:leading-[1.8vw] mt-[4.5vw] md:mt-[4.2vw] text-my-greys-2 font-normal">
         Like we said earlier you can join by clicking on the link below. (Be
         assisted by the label clan members, a 3 month probation period,But let’s
         explain what you have to do to join.
@@ -25,7 +25,7 @@ const HowToJoin = () => {
                 alt="logo 1"
               />
             </div>
-            <div className="text-[5.4vw] md:text-[1.6vw] font-bold leading-[7.2vw] md:leading-[2.2vw] md:mx-[6.3vw] md:mb-[1.6vw] mx-[20vw] mb-[3.1vw] text-center">
+            <div className="text-[5.4vw] md:text-[1.6vw] font-bold leading-[7.2vw] md:leading-[2.2vw] md:mx-[6.3vw] md:mb-[1.6vw] mb-[3.1vw] text-center md:whitespace-nowrap">
               Modern workforce
             </div>
             <div className="text-[4vw] md:text-[1.2vw] text-center leading-[5.8vw] md:leading-[1.8vw] mx-[2vw] font-normal">
@@ -41,7 +41,7 @@ const HowToJoin = () => {
                 alt="logo 1"
               />
             </div>
-            <div className="text-[5.4vw] md:text-[1.6vw] font-bold leading-[7.2vw] md:leading-[2.2vw] md:mx-[6.3vw] md:mb-[1.6vw] mx-[20vw] mb-[3.1vw] text-center">
+            <div className="text-[5.4vw] md:text-[1.6vw] font-bold leading-[7.2vw] md:leading-[2.2vw] md:mx-[6.3vw] md:mb-[1.6vw] mb-[3.1vw] text-center md:whitespace-nowrap">
               Meritocratic by design
             </div>
             <div className="text-[4vw] md:text-[1.2vw] text-center leading-[5.8vw] md:leading-[1.8vw] mx-[2vw] font-normal">
@@ -57,7 +57,7 @@ const HowToJoin = () => {
                 alt="logo 1"
               />
             </div>
-            <div className="text-[5.4vw] md:text-[1.6vw] font-bold leading-[7.2vw] md:leading-[2.2vw] md:mx-[6.3vw] md:mb-[1.6vw] mx-[20vw] mb-[3.1vw] text-center">
+            <div className="text-[5.4vw] md:text-[1.6vw] font-bold leading-[7.2vw] md:leading-[2.2vw] md:mx-[6.3vw] md:mb-[1.6vw] mb-[3.1vw] text-center md:whitespace-nowrap">
               Engineered for resilience
             </div>
             <div className="text-[4vw] md:text-[1.2vw] text-center leading-[5.8vw] md:leading-[1.8vw] mx-[2vw] font-normal">
@@ -65,7 +65,7 @@ const HowToJoin = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-[8px] bg-black text-whitee px-[5.4vw] md:px-[1.6vw] py-[4.5vw] md:py-[1.3vw] mb-[32.8vw] md:mb-[15.6vw] md:mb- mx-[6.8vw] md:text-[1.2vw] text-[4vw]">
+        <div className="rounded-[8px] bg-black text-whitee px-[5.4vw] md:px-[1.6vw] py-[4.5vw] md:py-[1.3vw] mb-[32.8vw] md:mb-[14.2vw] mx-[6.8vw] md:text-[1.2vw] text-[4vw]">
           Request early access
         </div>
       </div>
