@@ -19,6 +19,9 @@ function App() {
       <div>
         <HowToJoin />
       </div>
+      <div>
+        <Demarcation />
+      </div>
     </>
   );
 }
