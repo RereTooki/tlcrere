@@ -4,6 +4,7 @@ import "./App.css";
 import AboutUs from "./components/AboutUs";
 import Demarcation from "./components/Demarcation";
 import HowToJoin from "./components/HowToJoin";
+import OurVisionTeam from "./components/OurVisionTeam";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +13,12 @@ function App() {
     <>
       <div className="overflow-hidden">
         <AboutUs />
+      </div>
+      <div>
+        <Demarcation />
+      </div>
+      <div>
+        <OurVisionTeam />
       </div>
       <div>
         <Demarcation />
