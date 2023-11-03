@@ -26,6 +26,8 @@ export default {
         'dark-black': 'hsla(255, 7%, 11%, 87%)',
         'my-greys': 'rgba(217, 217, 217, 69%)',
         'my-greys-2': 'rgba(19, 19, 19, 100%)',
+        'my-greys-3': 'rgba(250, 250, 250, 0.83)',
+        'my-greys-4': 'rgba(255, 255, 255, 1)',
         'whitee': 'hsl(0, 0%, 100%)',
         'light-grey': 'hsl(217, 12%, 63%)',
         'medium-grey': 'hsl(216, 12%, 54%)',

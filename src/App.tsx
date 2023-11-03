@@ -5,12 +5,19 @@ import AboutUs from "./components/AboutUs";
 import Demarcation from "./components/Demarcation";
 import HowToJoin from "./components/HowToJoin";
 import OurVisionTeam from "./components/OurVisionTeam";
+import HeaderAboutUs from "./components/HeaderAboutUs";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <div className="overflow-hidden">
+        <HeaderAboutUs />
+      </div>
+      <div>
+        <Demarcation />
+      </div>
       <div className="overflow-hidden">
         <AboutUs />
       </div>
