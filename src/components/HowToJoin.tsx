@@ -16,8 +16,8 @@ const HowToJoin = () => {
         let’s explain what you have to do to join!
       </div>
       <div className="font-proxima flex flex-col items-center">
-        <div className="md:flex md:flex-row gap-x-[1.59vw]  mx-[6.8vw] md:fle-wrap md:mb-[5.3vw]">
-          <div className="rounded-[1.8vw] flex flex-col items-center pt-[14.5vw] md:py-[4.4vw] pb-[11.5vw] bg-oransgee shadow-[0_2px_8px_0_rgba(0,0,0,0.1)] md:shadow-[0_6.5px_26px_0_rgba(0,0,0,0.1)] mt-[28.1vw] md:mt-[7vw]">
+        <div className="md:flex md:flex-row gap-x-[1.59vw]  mx-[6.8vw] md:mb-[5.3vw]">
+          <div className="rounded-[1.8vw] flex flex-col items-center pt-[14.5vw] md:py-[4.4vw] pb-[11.5vw] shadow-[0_2px_8px_0_rgba(0,0,0,0.1)] md:shadow-[0_6.5px_26px_0_rgba(0,0,0,0.1)] mt-[28.1vw] md:mt-[7vw]">
             <div className="w-[23.5vw] md:w-[7.2vw] h-[19.9vw] md:h-[6.1vw] mb-[5.4vw] md:mb-[2.6vw]">
               <img
                 className="w-[23.5vw] md:w-[7.2vw] h-[19.9vw] md:h-[6.1vw]"
@@ -33,12 +33,12 @@ const HowToJoin = () => {
               organization’s wider community.
             </div>
           </div>
-          <div className="bg-light-sgrey rounded-[1.8vw] flex flex-col items-center pt-[14.5vw] md:py-[4.4vw] pb-[11.5vw] shadow-[0_2px_8px_0_rgba(0,0,0,0.1)] md:shadow-[0_6.5px_26px_0_rgba(0,0,0,0.1)] mt-[28.1vw] md:mt-[7vw]">
+          <div className="rounded-[1.8vw] flex flex-col items-center pt-[14.5vw] md:py-[4.4vw] pb-[11.5vw] shadow-[0_2px_8px_0_rgba(0,0,0,0.1)] md:shadow-[0_6.5px_26px_0_rgba(0,0,0,0.1)] mt-[28.1vw] md:mt-[7vw]">
             <div className="w-[23.5vw] md:w-[7.2vw] h-[19.9vw] md:h-[6.1vw] mb-[5.4vw] md:mb-[2.6vw]">
               <img
                 className="w-[23.5vw] md:w-[7.2vw] h-[19.9vw] md:h-[6.1vw]"
                 src={logo2}
-                alt="logo 1"
+                alt="logo 2"
               />
             </div>
             <div className="text-[5.4vw] md:text-[2vw] font-bold leading-[7.2vw] md:leading-[2.2vw] md:mx-[3.3vw] md:mb-[1.6vw] mb-[3.1vw] text-center md:whitespace-nowrap">
@@ -49,7 +49,7 @@ const HowToJoin = () => {
               organization’s success.
             </div>
           </div>
-          <div className="bg-mediusm-grey rounded-[1.8vw] flex flex-col items-center pt-[14.5vw] md:py-[4.4vw] pb-[11.5vw] bg-sorangee shadow-[0_2px_8px_0_rgba(0,0,0,0.1)] md:shadow-[0_6.5px_26px_0_rgba(0,0,0,0.1)] my-[28.1vw] md:my-0 md:mt-[7vw]">
+          <div className="rounded-[1.8vw] flex flex-col items-center pt-[14.5vw] md:py-[4.4vw] pb-[11.5vw] shadow-[0_2px_8px_0_rgba(0,0,0,0.1)] md:shadow-[0_6.5px_26px_0_rgba(0,0,0,0.1)] my-[28.1vw] md:my-0 md:mt-[7vw]">
             <div className="w-[23.5vw] md:w-[7.2vw] h-[19.9vw] md:h-[6.1vw] mb-[5.4vw] md:mb-[2.6vw]">
               <img
                 className="w-[23.5vw] md:w-[7.2vw] h-[19.9vw] md:h-[6.1vw]"
@@ -65,9 +65,9 @@ const HowToJoin = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-[8px] bg-black text-whitee px-[5.4vw] md:px-[1.6vw] py-[4.5vw] md:py-[1.3vw] mb-[32.8vw] md:mb-[14.2vw] mx-[6.8vw] md:text-[1.6vw] text-[4vw]">
+        <button className="rounded-[8px] bg-black text-whitee px-[5.4vw] md:px-[1.6vw] py-[4.5vw] md:py-[1.3vw] mb-[32.8vw] md:mb-[14.2vw] mx-[6.8vw] md:text-[1.6vw] text-[4vw]">
           Request early access
-        </div>
+        </button>
       </div>
     </>
   );

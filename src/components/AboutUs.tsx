@@ -10,8 +10,8 @@ import rect4 from "../assets/images/Rectangle 9575.png";
 const AboutUs = () => {
   return (
     <>
-      <div className="bg-my-greyss md:flex md:flex-row md:ml-[5.4vw] md:mr-[5.6vw]">
-        <div className="md:bg-my-greyss md:mt-[11vw]">
+      <div className="md:flex md:flex-row md:ml-[5.4vw] md:mr-[5.6vw]">
+        <div className="md:mt-[11vw]">
           <div className="font-clashfont text-[12.4vw] md:text-[6vw] ml-[8.8vw] md:mx-0 mr-[20.8px] text-dark-black">
             About The label Clan
           </div>
@@ -24,7 +24,7 @@ const AboutUs = () => {
             from any place at any time without any interruption!
           </div>
         </div>
-        <div className="flex bg-orangees flex-col items-center md:items-start">
+        <div className="flex flex-col items-center md:items-start">
           <div className="md:relative right-[18.5vw] top-[7vw] md:border-t-[1.4px] md:w-[41.5vw] z-10 border-black"></div>
           <div className="z-20">
             <div className="ml-[17.2vw] h-[63.4vw] md:h-[21.8vw] w-[72.5vw] md:w-[34vw] md:rounded-[1.8vw]">
@@ -44,19 +44,26 @@ const AboutUs = () => {
                 alt="Second rectangle"
               />
             </div>
-            <div className="relative bottom-[35.8vw] md:bottom-0 msd:bottsom-[24vw] ml-[40vw] mod:ml-[50vw] md:ml-0">
-              <img
-                src={circlestuff}
-                alt="We make your advert better"
-                className="md:w-[25.4vw]"
-              />
+            <div className="relative bottom-[35.8vw] md:bottom-0 ml-[40vw] mod:ml-[54vw] mod:mt-[4vw] md:ml-0">
+              <picture className="">
+                <source
+                  className=""
+                  media="(min-width: 600px)"
+                  srcSet={circlestuffmobile}
+                />
+                <img
+                  src={circlestuff}
+                  alt="We make your advert better"
+                  className=""
+                />
+              </picture>
             </div>
           </div>
         </div>
       </div>
       <div className="md:flex md:flex-row md:ml-[5.6vw] md:mt-[24.4vw] md:mb-[11.1vw]">
-        <div className="bg-orangees">
-          <div className=" bg-dark-blues relative bottom-[10.8vw] md:bottom-0 flex flex-row justify-evenly md:justify-normal mb-[6.3vw] md:mb-[9.6vw]">
+        <div className="">
+          <div className="relative bottom-[10.8vw] md:bottom-0 flex flex-row justify-evenly md:justify-normal mb-[6.3vw] md:mb-[9.6vw]">
             <div className="bg-slate-300 ml-[6.2vw] md:ml-0 h-[71.4vw] z-10 md:h-[24.8vw] w-[53.9vw] md:w-[34vw] md:rounded-[1.8vw]">
               <img
                 className="grayscale h-[71.4vw] z-10 md:h-[24.8vw] w-[53.9vw] md:w-[34vw] md:rounded-[1.8vw]"
@@ -73,7 +80,7 @@ const AboutUs = () => {
             <div className="relative border-t-[1.4px] w-[42vw] md:w-[14.9vw] border-black"></div>
           </div>
         </div>
-        <div className="bg-light-greyS md:flex md:flex-col-reverse">
+        <div className="md:flex md:flex-col-reverse">
           <div className="flex flex-col items-center md:items-end relative md:mb-0">
             <div className="ml-[14vw] md:ml-0 bg-my-greys h-[58.9vw] md:h-[23.6vw] w-[84.8vw] md:w-[49.5vw] md:rounded-tl-[1.8vw]"></div>
             <div className="absolute mr-[9.2vw] md:mr-[5.5vw] top-[11.3vw] md:top-[2.6vw] bg-slate-700 h-[68.7vw] md:h-[26.5vw] w-[89.5vw] md:w-[52.3vw] md:rounded-[1.8vw]">

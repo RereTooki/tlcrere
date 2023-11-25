@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div className="overflow-hidden">
+      <div className="overflow-hidden hs-[57.7vw]">
         <HeaderAboutUs />
       </div>
       <div>
